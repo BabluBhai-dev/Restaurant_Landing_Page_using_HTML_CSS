@@ -48,10 +48,14 @@ body{
 
 .hero{
     height: 100vh;
-
+    background-image: url(/Image/heropage/herosection.jpg);
+    background-size:cover ;
+    background-position: center;
 }
 
 .overlay{
+    height: 100%;
+    background: rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,6 +63,24 @@ body{
 
 .hero-content{
     text-align: center;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 4rem;
+}
+
+.hero-content p{
+    margin: 20px 0;
+}
+
+.hero-content button{
+    padding:15px 30px;
+    border:none;
+    cursor:pointer;
+    background:orange;
+    color:white;
+    font-size:18px;
 }
 
 @media (max-width:768px) {
