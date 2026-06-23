@@ -46,6 +46,21 @@ body{
     color: black;
 }
 
+.hero{
+    height: 100vh;
+
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    text-align: center;
+}
+
 @media (max-width:768px) {
     .navbar{
         flex-direction: column;
