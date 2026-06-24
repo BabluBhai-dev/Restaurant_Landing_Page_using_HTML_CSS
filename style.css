@@ -115,6 +115,20 @@ body{
     flex-wrap:wrap;
 }
 
+.card{
+    width:300px;
+
+    box-shadow:0 0 15px rgba(0,0,0,.1);
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
 
 @media (max-width:768px) {
     .navbar{
