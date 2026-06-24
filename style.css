@@ -83,6 +83,15 @@ body{
     font-size:18px;
 }
 
+/* features */
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    padding: 60px 20px;
+}
 @media (max-width:768px) {
     .navbar{
         flex-direction: column;
