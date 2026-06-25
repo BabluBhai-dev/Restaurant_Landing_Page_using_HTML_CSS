@@ -192,6 +192,49 @@ body{
 
     box-shadow:0 0 10px rgba(0,0,0,.1);
 }
+/* Contact */
+
+.contact{
+    padding:80px 20px;
+}
+
+.contact h2{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+form{
+    max-width:500px;
+
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+
+    gap:20px;
+}
+
+input,
+textarea{
+    padding:15px;
+}
+
+textarea{
+    resize:none;
+    height:150px;
+}
+
+form button{
+    padding:15px;
+
+    border:none;
+
+    background:orange;
+
+    color:white;
+
+    cursor:pointer;
+}
 
 @media (max-width:768px) {
     .navbar{
