@@ -236,6 +236,15 @@ form button{
     cursor:pointer;
 }
 
+/* Footer */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
 @media (max-width:768px) {
     .navbar{
         flex-direction: column;
