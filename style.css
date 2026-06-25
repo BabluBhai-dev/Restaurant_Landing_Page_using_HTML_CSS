@@ -167,6 +167,32 @@ body{
     padding: 60px;
 }
 
+/* Review */
+
+.reviews{
+    padding:80px 50px;
+}
+
+.reviews h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.review-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.review{
+    width:300px;
+
+    padding:20px;
+
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
 @media (max-width:768px) {
     .navbar{
         flex-direction: column;
